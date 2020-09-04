@@ -1,10 +1,10 @@
 ### (1) Angular intro
-- [Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/intro.md)
-- [Angular 2020Q1 intro. TypeScript & Angular basics](https://www.youtube.com/watch?v=HoUq9xyfCAk&feature=youtu.be)
-- [Task review](https://www.youtube.com/watch?v=jwIVkodBPgU&t)
+- [Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/intro.md) +
+- [Angular 2020Q1 intro. TypeScript & Angular basics](https://www.youtube.com/watch?v=HoUq9xyfCAk&feature=youtu.be) +
+- [Task review](https://www.youtube.com/watch?v=jwIVkodBPgU&t) +
 ### (2) Components, Directives & Pipes
 - [Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
-- [Angular 2020Q1. Components](https://www.youtube.com/watch?v=rY_FWXmh4QI)
+- [Angular 2020Q1. Components](https://www.youtube.com/watch?v=rY_FWXmh4QI) +
 - [Angular 2020Q1. Directives & Pipes](https://www.youtube.com/watch?v=S7TKY7hfWa0&feature=youtu.be)
 - [Task review](https://www.youtube.com/watch?v=PWsq_OvZsQo)
 ### (3) Modules & Services. Routing
