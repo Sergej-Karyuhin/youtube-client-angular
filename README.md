@@ -1,4 +1,4 @@
-### (1) Angular intro
+### (1) Angular intro +
 - [Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/intro.md) +
 - [Angular 2020Q1 intro. TypeScript & Angular basics](https://www.youtube.com/watch?v=HoUq9xyfCAk&feature=youtu.be) +
 - [Task review](https://www.youtube.com/watch?v=jwIVkodBPgU&t) +
