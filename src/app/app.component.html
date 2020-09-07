@@ -1,1 +1,2 @@
-<app-header></app-header>
+<app-header (submit)="onSubmit()"></app-header>
+<app-search-results *ngIf="isOpen"></app-search-results>

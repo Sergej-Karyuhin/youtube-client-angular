@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'youtube-client-angular';
+  isOpen = false;
+  onSubmit() {
+    this.isOpen = true;
+  }
 }
