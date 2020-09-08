@@ -1,1 +1,7 @@
 <p>Результаты поиска</p>
+<ul>
+  <li *ngFor="let item of items; index as i">
+    <p>Элемент списка {{i}}</p>
+    <p>{{data.pageInfo.resultsPerPage}}</p>
+  </li>
+</ul>
