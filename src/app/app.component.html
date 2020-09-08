@@ -1,2 +1,3 @@
-<app-header (submit)="onSubmit()"></app-header>
+<app-header (eventSubmit)="submit($event)"></app-header>
 <app-search-results *ngIf="isOpen"></app-search-results>
+<p>{{inputValue}}</p>

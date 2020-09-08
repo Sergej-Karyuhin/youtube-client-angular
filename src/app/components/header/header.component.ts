@@ -7,8 +7,14 @@ import { Output, EventEmitter } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  value = 'Clear me';
-  @Output() submit = new EventEmitter();
+  value;
+
+  @Output() eventSubmit = new EventEmitter();
+
+  submit(value) {
+    this.eventSubmit.emit(value);
+  }
+
   constructor() { }
 
   ngOnInit(): void {

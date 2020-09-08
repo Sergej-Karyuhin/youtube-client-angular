@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'youtube-client-angular';
   isOpen = false;
-  onSubmit() {
+  inputValue;
+  submit(value) {
     this.isOpen = true;
+    this.inputValue = value;
   }
 }
