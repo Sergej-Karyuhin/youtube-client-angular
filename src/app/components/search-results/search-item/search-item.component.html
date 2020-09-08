@@ -1,4 +1,23 @@
 <li *ngFor="let item of data.items; index as i">
-  <p>1: {{item.statistics.commentCount}}</p>
-  <!-- <p>2: {{}}</p> -->
+
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{item.snippet.channelTitle}}</mat-card-title>
+    <!-- <mat-card-subtitle>{{item.snippet.localized.title}}</mat-card-subtitle> -->
+  </mat-card-header>
+  <img mat-card-image [src]="item.snippet.thumbnails.high.url" alt="heh">
+  <mat-card-content>
+    <p>1: {{item.statistics.commentCount}}</p>
+    <p>2: </p>
+    <p>3: </p>
+    <p>4: </p>
+    <p>5: </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+
 </li>

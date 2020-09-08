@@ -1,3 +1,5 @@
-<app-header (eventSubmit)="submit($event)"></app-header>
-<app-search-results *ngIf="isOpen"></app-search-results>
-<p>{{inputValue}}</p>
+<div class="wrapper">
+  <app-header (eventSubmit)="submit($event)" class="app-header"></app-header>
+  <app-search-results *ngIf="isOpen"></app-search-results>
+  <p>{{inputValue}}</p>
+</div>
