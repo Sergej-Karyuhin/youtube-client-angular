@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../../../services/data.service';
 
 @Component({
   selector: 'app-search-item',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search-item.component.scss']
 })
 export class SearchItemComponent implements OnInit {
-
-  constructor() { }
+  data;
+  constructor(
+    private dataService: DataService
+  ) { }
 
   ngOnInit(): void {
+    this.data = this.dataService.getData();
   }
 
 }

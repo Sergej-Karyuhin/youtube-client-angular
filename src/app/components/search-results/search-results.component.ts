@@ -7,7 +7,6 @@ import { DataService } from '../../services/data.service';
   styleUrls: ['./search-results.component.scss']
 })
 export class SearchResultsComponent implements OnInit {
-  items = [1, 2, 3, 4, 5];
   data;
   constructor(
     private dataService: DataService
