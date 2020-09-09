@@ -8,6 +8,7 @@ import { DataService } from '../../../services/data.service';
 })
 export class SearchItemComponent implements OnInit {
   data;
+
   constructor(
     private dataService: DataService
   ) { }

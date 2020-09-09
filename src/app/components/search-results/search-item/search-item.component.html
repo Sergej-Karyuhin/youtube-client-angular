@@ -12,10 +12,19 @@
     <p>Dislike: {{item.statistics.dislikeCount}}</p>
     <p>View: {{item.statistics.viewCount}}</p>
     <p>Comment: {{item.statistics.commentCount}}</p>
+    <p>{{item.snippet.publishedAt | date: 'yy'}}</p>
   </mat-card-content>
   <mat-card-actions>
     <button mat-button>More ...</button>
   </mat-card-actions>
+  <div
+    [ngClass]="{green:((item.snippet.publishedAt | date: 'yy') == 19 ? true : false),
+                blue:((item.snippet.publishedAt | date: 'yy') == 18 ? true : false),
+                red:((item.snippet.publishedAt | date: 'yy') == 17 ? true : false)}"
+    class="colorful-border"
+  >
+
+  </div>
 </mat-card>
 
 </li>
