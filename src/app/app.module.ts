@@ -15,6 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 
 import { HttpClientModule } from '@angular/common/http';
+import { SortArrayPipe } from './pipes/sort-array.pipe';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HttpClientModule } from '@angular/common/http';
     SearchResultsComponent,
     SearchItemComponent,
     FilterComponent,
+    SortArrayPipe,
   ],
   imports: [
     BrowserModule,
