@@ -17,12 +17,12 @@
       </button>
     </form>
 
-    <button mat-fab color="basic" aria-label="Example icon button with a delete icon">
+    <button (click)="switch()" mat-fab color="basic" aria-label="Example icon button with a delete icon">
       <mat-icon>tune-up</mat-icon>
     </button>
   </div>
 
 
-  <app-filter class="header__filter"></app-filter>
+  <app-filter *ngIf="isOpen" class="header__filter"></app-filter>
 
 </header>

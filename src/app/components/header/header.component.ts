@@ -8,11 +8,15 @@ import { Output, EventEmitter } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   value;
-
+  isOpen = false;
   @Output() eventSubmit = new EventEmitter();
 
   submit(value) {
     this.eventSubmit.emit(value);
+  }
+
+  switch() {
+    this.isOpen = !this.isOpen;
   }
 
   constructor() { }
